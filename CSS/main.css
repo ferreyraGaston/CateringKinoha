@@ -4,6 +4,9 @@
   padding: 0px;
   box-sizing: border-box; }
 
+body {
+  background-color: #874C62; }
+
 .header {
   background-image: url(../IMG/fondo5.jpg);
   width: 100%; }
@@ -243,62 +246,6 @@
   background-color: #874C62;
   font-size: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
-
-/*historia */
-.footer__historia {
-  background-color: #e6b9af; }
-
-.footer__historia-p {
-  font-size: 10px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  margin-top: 20px; }
-
-/*productos */
-.footer__productos {
-  background-color: #e1ceca; }
-
-.footer__productos-p {
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  margin-top: 20px; }
-
-.footer__productos-text {
-  font-size: 20px;
-  font-style: italic;
-  text-decoration: solid;
-  display: flex;
-  align-items: center;
-  margin: 10%; }
-
-/*CalidadAlimentaria */
-.footer__calidad-text {
-  margin-top: 20px;
-  font-size: 10px;
-  background-color: #d79080; }
-
-.footer__calidad {
-  background-image: url(../IMG/fondotext.jpg); }
-
-/*contacto */
-.footer__contact-p {
-  font-size: 20px;
-  background-color: #e1ceca;
-  display: flex;
-  margin-top: 20px; }
-
-.footer__contact-maps {
-  width: 100%;
-  display: flex;
-  align-items: center; }
-
-.footer__contact-number .footer__contact-email {
-  display: flex;
-  justify-content: center;
-  background-color: #e1ceca;
-  font-size: 20px;
-  margin-left: 20px; }
 
 @media (max-width: 768px) {
   .header__imagen {
