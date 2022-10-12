@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   
+/*******mobile******/
+/*index*/
+/*imagen de fondo*/
+
+.header, .main__main , .header__historia, .header__calidad, .header__productos, .header__contact {
+    background-image: url(../IMG/fondo5.jpg);
+    width: 100%;
+    }
+
+/*titulo de todas las secciones*/
+.header__titulo, .header__productos-tittle, .header__calidad-tittle, .header__historia-tittle, .header__contact-tittle{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.header__logo {
+    border-radius: 45%;
+    width: 100px;
+    height: 100px;
+}
+
+.header__imagen {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover;
+}
+
+
+.main__form-input {
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+
+.main__form-button:hover {
+    width: 60px;
+    height: 30px;
+    background-color: #C98474;
+    border-bottom: solid 5px 5px 5px 5px black;
+    margin-left: 5%;
+    transition: all 5s;
+    color:#A7D2CB;    
+}
+
+.main__video {
+    background-color: #C98474;
+    margin: 20%;
+    width: 50%;
+}
+
+.main__p {
+    background-color: #C98474;
+    font-size: 3+20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #874C62;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*historia*/
+
+.header__historia-tittle{
+    margin-bottom: 20%;
+}
+
+.main__historia-p {
+    background-image: url(../IMG/21230897-grunge-fondo-con-espacio-para-texto-o-imagen-para-el-diseño-creativo-diseño-ilustraciones-de-estilo-.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 15px;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+.main__historia-img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__historia {
+    background-color: #e6b9af;
+}
+
+.footer__historia-p { 
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*productos*/
+
+
+.header__productos-subtittle{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header__productos-nav {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.main__productos-conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ead0c9;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__productos-name{
+    font-size: 20px;
+    text-align: center;
+    margin: 10%
+}
+
+.main__productos-p{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: auto;
+}
+
+.main__productos-img{
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    }
+
+.footer__productos{
+    background-color: #e1ceca;
+}
+
+.footer__productos-p{  
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.footer__productos-text{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+
+/*CalidadAlimentaria*/
+
+.header__calidad-p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main__calidad{
+    background-color: #e6b9af;
+    width: 100% ;
+}
+
+.main__calidad-subtittle{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.main__calidad-input{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.span__calidad{
+    font-size: 30px;
+    font-family: serif;
+    text-decoration: wavy;
+}
+
+.footer__calidad-text{
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #d79080;
+}
+
+.footer__calidad{
+    background-image: url(../IMG/fondotext.jpg)
+}
+
+/*contacto*/
+
+
+.header__contact-input, .header__contact-text {
+    font-size: 30px;
+    outline: #C98474;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header__contact-btn{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    outline: #C98474;
+    color: #874C62;
+}
+
+.footer__contact-p{
+    font-size: 20px;
+    background-color: #e1ceca;
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.footer__contact-maps{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer__contact-number, .footer__contact-email{
+    display: flex;
+    justify-content: center;
+    background-color: #e1ceca;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/***********tablet******/
+
+@media (max-width: 768px) {
+
+.header__imagen{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+}
+
+.main__form-input {
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.main__productos-img:hover{
+    filter: grayscale(80%) opacity(.5);
+}
+ 
+
+
+}
+
+/*******portatil************/
+@media (max-width: 1024px) {
+ 
+    .header__imagen{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    }
+
+    .main__form-input {
+        background-color: white;
+        font-size: 35px;
+        color: black;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    
+}
